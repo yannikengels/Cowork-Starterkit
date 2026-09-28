@@ -3,7 +3,7 @@
 Claude liest diese Datei bei jeder Aufgabe mit. Sie hat zwei Teile:
 
 - **Teil A: Werte und Arbeitsregeln.** Fest. Gilt für jede Rolle. Das Setup
-  ergänzt nur die Rollen-Variante von Wert 1.
+  ergänzt nur die Rollen-Variante von Wert 1 und deine eigenen Werte (Wert 6).
 - **Teil B: Dein Kontext.** Wird vom Setup-Interview ausgefüllt (`SETUP-PROMPT.md`).
 
 > Noch nicht eingerichtet? Solange hier `[[ … ]]` steht, schlägt Claude zuerst
@@ -79,12 +79,22 @@ zehn Rückfragen Zeit kosten.
   nicht erst am Ende.
 - **Routing:** Aufgaben → `TASKS.md` · Projektstand und Entscheidungen →
   `Projects/` · Meeting-Notizen → `Meetings/` · fertige Ergebnisse →
-  `Completed/JJJJ-MM-TT/`
+  `Completed/JJJJ-MM-TT/` · Gesprächs-Zusammenfassungen (`/close`) →
+  `memory.md`
+- Zu Beginn einer Aufgabe, die an frühere Gespräche anknüpft: `memory.md`
+  lesen, falls vorhanden.
 - Erledigte Aufgaben in `TASKS.md` sind Ground Truth und werden nie wieder als
   offen behandelt.
 - Am Ende einer Session, in der sich Kontext geändert hat: betroffene Dateien
   aktualisieren und in einem Satz sagen, was geändert wurde.
 - Widersprechen sich zwei Quellen: mit ⚠️ melden, nicht still entscheiden.
+
+## Wert 6: Meine eigenen Werte
+
+Werte aus meinem Unternehmen oder meine persönlichen Prinzipien. Sie gelten wie
+die Werte 1 bis 5.
+
+- [[vom Setup ausgefüllt: Wert als kurze Regel · woran man ihn im Alltag erkennt]]
 
 ## Arbeitsregeln
 

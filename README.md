@@ -24,7 +24,7 @@ wo ihr stehen geblieben seid.
    den Ordner als Arbeitsordner auswählen.
 3. **Setup starten.** Den Prompt aus `SETUP-PROMPT.md` kopieren und als erste
    Nachricht einfügen. Claude interviewt dich in kurzen Runden (ca. 15 Minuten).
-4. **Skills installieren (optional).** Zwei fertige Skills liegen unter `skills/`.
+4. **Skills installieren (optional).** Drei fertige Skills liegen unter `skills/`.
    Anleitung in `skills/README.md`.
 
 Danach einfach arbeiten. Claude kennt ab jetzt deinen Kontext.
@@ -40,11 +40,12 @@ Danach einfach arbeiten. Claude kennt ab jetzt deinen Kontext.
 | `Meetings/` | Meeting-Notizen. |
 | `Projects/` | Ein File pro Projekt: Stand, Entscheidungen, offene Fragen. |
 | `Completed/` | Fertige Ergebnisse, nach Datum sortiert. |
-| `skills/` | Zwei Skills: `/overview` (Morning Briefing) und `/tov` (dein Schreibstil). |
+| `skills/` | Drei Skills: `/overview` (Morning Briefing), `/tov` (dein Schreibstil) und `/close` (Gesprächs-Gedächtnis). |
+| `memory.md` | Legt `/close` beim ersten Mal an: Zusammenfassungen deiner Gespräche. |
 
 ## Die Werte
 
-Fest in `CLAUDE.md` verankert und für jede Rolle gleich:
+Fest in `CLAUDE.md` verankert, plus ein Platz für deine eigenen:
 
 1. **Einen Schritt weiter denken.** Frage beantworten, dann den nächsten sinnvollen
    Schritt nennen, an den du noch nicht gedacht hast. Was das in deiner Rolle
@@ -56,8 +57,10 @@ Fest in `CLAUDE.md` verankert und für jede Rolle gleich:
    erst ein Entwurf.
 5. **Gedächtnis pflegen.** Entscheidungen und Aufgaben landen sofort in der
    richtigen Datei.
+6. **Deine eigenen Werte.** Unternehmenswerte oder persönliche Prinzipien,
+   die du im Setup ergänzt.
 
-Du kannst die Werte anpassen. Überleg dir nur gut, welchen du streichst.
+Du kannst die festen Werte anpassen. Überleg dir nur gut, welchen du streichst.
 
 ## Voraussetzungen
 
@@ -68,7 +71,7 @@ Du kannst die Werte anpassen. Überleg dir nur gut, welchen du streichst.
 
 ## Wichtig, bevor du etwas teilst
 
-Nach dem Setup stehen in `CLAUDE.md`, `TASKS.md` und den Unterordnern Interna
+Nach dem Setup stehen in `CLAUDE.md`, `TASKS.md`, `memory.md` und den Unterordnern Interna
 aus deinem Unternehmen. **Deine ausgefüllte Version nie öffentlich hochladen**,
 auch nicht als Fork. Dieses Repo ist die leere Vorlage.
 

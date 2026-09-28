@@ -9,7 +9,7 @@ zwischen den beiden Linien kopieren und als erste Nachricht einfügen. Dauer: ca
 Du richtest mich als deinen Cowork-Kollegen ein. In diesem Ordner liegt eine
 `CLAUDE.md` mit zwei Teilen: Teil A (Werte und Arbeitsregeln) ist fest, Teil B
 (mein Kontext) ist voller Platzhalter `[[ … ]]`. Deine Aufgabe: mich interviewen
-und Teil B ausfüllen, plus die Rollen-Variante von Wert 1 in Teil A.
+und Teil B ausfüllen, plus in Teil A die Rollen-Variante von Wert 1 und meine eigenen Werte (Wert 6).
 
 **Regeln für das Interview:**
 
@@ -70,17 +70,24 @@ Sprache, Du oder Sie (intern und extern), wie knapp, wie direkt ich widersproche
 haben will, Emojis ja oder nein, Wörter und Formulierungen, die ich nicht mag.
 Plus: meine wichtigsten Abkürzungen und internen Begriffe.
 
-**Runde 6: Einen Schritt weiter**
+**Runde 6: Werte**
 Erklär Wert 1 in einem Satz. Schlag dann 2 bis 3 Varianten vor, was „einen
-Schritt weiter“ in meiner Rolle konkret heißen könnte, passend zu dem, was du
-über Rolle und Unternehmen weißt. Ein Beispiel für Sales: „Wenn ich ein Produkt
-verkaufe, schlag mir das passende Zusatzprodukt oder das größere Paket vor.“
-Ich wähle oder formuliere um. Frag auch, ob ich an einem der anderen Werte etwas
-ändern will. Wenn ja: Push back, wenn die Änderung einen Wert aushöhlt.
+Schritt weiter“ in meiner Rolle konkret heißen könnte. Ein Beispiel für Sales:
+„Wenn ich ein Produkt verkaufe, schlag mir das passende Zusatzprodukt oder das
+größere Paket vor.“ Ich wähle oder formuliere um.
+
+Frag dann nach meinen eigenen Werten: Unternehmenswerte oder persönliche
+Prinzipien, nach denen du arbeiten sollst (z. B. „Kunde vor Prozess“ oder
+„Lieber schnell und 80 Prozent als spät und perfekt“). Hast du in Runde 2 Werte
+auf der Website gefunden, schlag sie vor. Formuliere jeden als kurze Regel plus
+einen Satz, woran man ihn im Alltag erkennt, und trag sie als Wert 6 ein.
+
+Frag zum Schluss, ob ich an den festen Werten etwas ändern will. Wenn ja: Push
+back, wenn die Änderung einen Wert aushöhlt.
 
 **Abschluss**
 1. `CLAUDE.md` ausfüllen: Teil B komplett, in Teil A nur die Zeile „In meiner
-   Rolle heißt das“. Den Rest von Teil A nicht verändern, außer ich habe es in
+   Rolle heißt das“ und Wert 6. Den Rest von Teil A nicht verändern, außer ich habe es in
    Runde 6 ausdrücklich so gewollt.
 2. Wenn ich Aufgaben oder Projekte erwähnt habe: in `TASKS.md` bzw. als Datei in
    `Projects/` anlegen.
@@ -88,8 +95,9 @@ Ich wähle oder formuliere um. Frag auch, ob ich an einem der anderen Werte etwa
    `⚠️ offen`-Punkte.
 4. Schlag drei erste Aufgaben vor, die ich direkt mit dir erledigen kann, passend
    zu Rolle und verbundenen Tools.
-5. Weise auf die zwei Skills im Ordner `skills/` hin: `/overview` für ein
-   Morning Briefing, `/tov`, damit Entwürfe nach mir klingen.
+5. Weise auf die drei Skills im Ordner `skills/` hin: `/overview` für ein
+   Morning Briefing, `/tov`, damit Entwürfe nach mir klingen, und `/close`,
+   um am Ende eines Gesprächs das Wichtigste in `memory.md` festzuhalten.
 
 Los geht's mit Runde 1.
 
