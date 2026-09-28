@@ -1,0 +1,9 @@
+# Systemdateien
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Persönliche Dateien, die nie ins öffentliche Repo gehören
+TONE-OF-VOICE.md
+memory.md
